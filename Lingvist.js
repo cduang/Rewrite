@@ -24,9 +24,9 @@ const dysj = /services/;
 
 if(user.test($request.url)){
   chxm1023.subscription = {
-    "status" : "intro-trial",
+    "status" : "paid",
     "expiration_ts" : "2099-09-09T09:09:09+00:00",
-    "trial_available" : false,
+    "trial_available" : true,
     "on_hold" : false,
     "trial_duration" : "P9999D"
   };
